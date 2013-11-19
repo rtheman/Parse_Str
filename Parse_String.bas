@@ -1,6 +1,7 @@
 Attribute VB_Name = "Module1"
 'Rich Leung | 11/14/2013
-' Parse word delimited within "<>"
+'Parse word delimited by delimiter sep1 and sep2
+
 Function Parse_Str(str, sep1, sep2) As String
     Dim V1() As String
     Dim V2() As String
